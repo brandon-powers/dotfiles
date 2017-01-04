@@ -1,0 +1,22 @@
+set nocompatible " No compatibility with vi
+set number " Set line numbers
+set backspace=indent,eol,start " Allow backspace in insert mode
+set showmode " Show current mode at the bottom
+set autoread " Reload files changed outside of vim
+syntax on " Turn on syntax highlighting
+
+" Turn off swap files
+set noswapfile
+set nobackup
+set nowb
+
+" Indentation
+filetype plugin indent on
+set autoindent
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+
+" Ctrl-e to switch between split sessions (:vsp | :sp)
+:map <C-e> <C-w>
