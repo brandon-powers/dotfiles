@@ -20,3 +20,11 @@ set expandtab
 
 " Ctrl-e to switch between split sessions (:vsp | :sp)
 :map <C-e> <C-w>
+
+:command WQ wq
+:command Wq wq
+:command W w
+:command Q q
+
+execute pathogen#infect()
+" autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
