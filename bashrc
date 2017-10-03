@@ -23,3 +23,4 @@ if [ -e ~/.git-prompt.sh ]; then
     GIT_BRANCH='\[\e[1;93m\]$(__git_ps1 "[%s] ")\[\e[0;33m\]'
     PS1="$GIT_BRANCH$PS1"
 fi
+# test
