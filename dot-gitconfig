@@ -9,3 +9,19 @@
 
 [credential]
     helper = cache --timeout=7200
+
+[alias]
+  a = add
+  c = commit
+  p = push
+  co = checkout
+  cob = checkout -b
+  br = branch
+  s = status
+  d = diff
+  cm = commit -m
+  po = push origin
+  poh = push origin HEAD
+  plo = pull origin
+  ploh = pull origin HEAD
+  inspect-head = symbolic-ref HEAD
