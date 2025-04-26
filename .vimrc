@@ -1,3 +1,5 @@
+autocmd BufWritePre * :%s/\s\+$//e
+
 " No compatibility with vi
 set nocompatible
 
@@ -59,4 +61,4 @@ autocmd Filetype gitcommit setlocal spell textwidth=72
 autocmd BufWritePost * silent! %s/\s\+$//g
 
 " Plugins (tpope)
-execute pathogen#infect()
+" execute pathogen#infect()
